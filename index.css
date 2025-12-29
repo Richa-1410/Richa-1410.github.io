@@ -89,3 +89,62 @@
     align-items: center;
     gap: 2px;
 }
+.account{
+    display: flex;
+    
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+   
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.orders{
+    display: flex;
+    
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+   
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.cart{
+    display: flex;
+    
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+   
+    align-items: center;
+    
+    gap: 2px;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    background-color: #232f3e;
+    height: 40px;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+.nav2-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nitems{
+    margin-left: 40px;
+    margin-top: auto;
+    margin-right: 5px;
+}
+    
+
