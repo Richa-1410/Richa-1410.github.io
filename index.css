@@ -58,3 +58,34 @@
     gap: 2px;
     padding:auto;
 }
+.search-input{
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.search-icon{
+    display: flex;
+    flex-direction: row;
+    background-color: #febd69;
+    width: 40px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
