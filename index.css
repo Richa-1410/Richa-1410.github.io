@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
    
 }
-
 .nav{
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
     
 }
 .c{
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(192, 189, 192);
 }
 .search-bar{
@@ -99,7 +99,7 @@
    
     align-items: center;
     flex-direction: column;
-    gap: 2px;
+    gap: 1px;
 }
 .orders{
     display: flex;
@@ -111,7 +111,7 @@
    
     align-items: center;
     flex-direction: column;
-    gap: 2px;
+    gap: 1px;
 }
 .cart{
     display: flex;
@@ -140,11 +140,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 .nitems{
-    margin-left: 40px;
+    margin-left: 5px;
     margin-top: auto;
     margin-right: 5px;
+    font-size: medium;
+    cursor: pointer;
 }
+
     
 
