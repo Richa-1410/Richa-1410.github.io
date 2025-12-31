@@ -609,209 +609,71 @@ body{
     font-size: 12px;
     
 }
-
-@media (max-width: 768px) {
-
-  
-  .nav {
-    flex-wrap: wrap;
-    height: auto;
-    padding: 8px;
-  }
-
-  .location,
-  .language,
-  .orders {
-    display: none;
-  }
-
-  .amazon-logo img {
-    height: 35px;
-  }
-
-  .search-bar {
-    width: 100%;
-    margin: 8px 0;
-  }
-
-  .search-input {
-    width: 100%;
-    font-size: 13px;
-  }
-
-  .account span:nth-child(2),
-  .cart span {
-    display: none;
-  }
-
-  
-  .nav2-items {
-    display: none;
-  }
-
-  
-  .hero {
-    height: 250px;
-  }
-
-  .hero img {
-    height: 100%;
-  }
-
-  
-  .content {
-    margin-top: -100px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box {
-    width: 100%;
-    height: auto;
-  }
-
-  
-  .img1 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .product img {
-    height: 100px;
-  }
-
-  
-  .images,
-  .images2,
-  .img2 {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-  }
-
-  .images img,
-  .images2 img,
-  .img2 img {
-    min-width: 130px;
-  }
-
-  
-  
-
-  .box2 {
-    height: auto;
-  }
-
-  .box3 {
-    height: auto;
-    padding: 15px;
-  }
-
-  .list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    justify-items: center;
-  }
-
-  .list1 {
-    width: 100%;
-    max-width: 160px;
-  }
-
-  .list1 img {
-    width: 100%;
-    height: auto;
-  }
-
-  .des span {
-    font-size: 12px;
-  }
-
-  .price {
-    font-size: 16px;
-  }
-  .info {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-  }
-
-  .amz {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .adv {
-    display: none;
-  }
-
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-
-  
-  .nav {
-    flex-wrap: wrap;
-    height: auto;
-  }
-
-  .search-bar {
-    width: 60%;
-  }
-
-  
-  .hero {
-    height: 400px;
-  }
-
-  
-  .content {
-    margin-top: -200px;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .box {
-    width: 45%;
-    height: auto;
-  }
-
-  
-  .img1 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  
- .box2 {
-    height: auto;
-  }
-
-  .box3 {
-    height: auto;
-  }
-
-  .list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    justify-items: center;
-  }
-
-  .list1 {
-    width: 180px;
-  }
-
-  .list1 img {
-    width: 100%;
-    height: auto;
-  }
-
-
-  
-  .info {
-    gap: 40px;
-  }
-
-  .adv {
-    justify-content: center;
-  }
+@media screen and (max-width: 1024px) {
+    .nav {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .search-bar {
+        width: 60%;
+        order: 3;
+    }
+    .hero {
+        height: 400px;
+    }
+    .content {
+        margin-top: -150px;
+        justify-content: center;
+    }
+    .box, .content1, .box2, .box3 {
+        width: 45%;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .amazon-logo img {
+        height: 30px;
+    }
+    .location, .language, .orders, .account span:first-child {
+        display: none;
+    }
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .nav2 {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .hero {
+        height: 250px;
+    }
+    .content {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box, .content1, .box2, .box3 {
+        width: 95% !important;
+        height: auto !important;
+        margin: 10px 0;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list1 {
+        width: 90%;
+    }
+    .img1, .img2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
