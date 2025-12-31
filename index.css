@@ -631,6 +631,21 @@ body{
         height: auto !important;
         margin-bottom: 20px;
     }
+    .adv {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 15px;
+    }
+    .adv1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .copy {
+        font-size: 12px;
+        padding: 15px 15px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -675,5 +690,28 @@ body{
     }
     .img1, .img2 {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .adv {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px 10px;
+        height: auto;
+    }
+    .adv1 {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .adv1 p {
+        font-size: 14px;
+    }
+    .adv1 span {
+        font-size: 12px;
+    }
+    .copy {
+        font-size: 11px;
+        padding: 12px 10px;
+        line-height: 1.4;
     }
 }
